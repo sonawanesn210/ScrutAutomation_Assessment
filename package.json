@@ -1,0 +1,27 @@
+{
+  "name": "scrutautomation_assessment",
+  "version": "1.0.0",
+  "description": "Problem: Create two NodeJS applications. 1 service will take inputs from a rest API including name, age and file. This nodejs service will save the items in a MongoDB and then make an amqp call using RabbitMQ to another nodejs application. This second application will keep a count in a flat file of how many requests it receives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonawanesn210/ScrutAutomation_Assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonawanesn210/ScrutAutomation_Assessment/issues"
+  },
+  "homepage": "https://github.com/sonawanesn210/ScrutAutomation_Assessment#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "aws-sdk": "^2.1233.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}
